@@ -1,0 +1,29 @@
+body {
+  border: 1px solid black;
+}
+
+header {
+  text-align: center;
+}
+
+#staticNav img {
+  width: 100%;
+  height: 5%
+}
+
+#staticNav ul {
+  text-align: center;
+}
+
+#staticNav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 4%;
+}
+
+
+.homeContents p {
+  padding: 1%;
+  max-width: 30%;
+  display: inline-block;
+}
