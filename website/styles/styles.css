@@ -115,7 +115,7 @@ header {
 /********************* Parralax *********************/
 .parallax {
     /* The image used */
-    background-image: url("../IMG/socks2.jpeg");
+    background-image: url("../IMG/parallax1.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -129,7 +129,7 @@ header {
 
 
 #parallaxOne {
-  background-image: url("../IMG/gallery2.jpeg");
+  background-image: url("../IMG/parallax1.jpg");
   /* Set a specific height */
   height: 500px;
 
@@ -140,7 +140,7 @@ header {
   background-size: cover;
 }
 #parallaxTwo {
-  background-image: url("../IMG/socks4.jpeg");
+  background-image: url("../IMG/parallax2.jpg");
   /* Set a specific height */
   height: 500px;
 
@@ -152,7 +152,7 @@ header {
 
 }
 #parallaxThree {
-  background-image: url("../IMG/socks5.jpeg");
+  background-image: url("../IMG/parallax3.jpg");
   /* Set a specific height */
   height: 500px;
 
@@ -163,7 +163,7 @@ header {
   background-size: cover;
 }
 #parallaxFour {
-  background-image: url("../IMG/gallery8.jpeg");
+  background-image: url("../IMG/parallax4.jpg");
   /* Set a specific height */
   height: 500px;
 
