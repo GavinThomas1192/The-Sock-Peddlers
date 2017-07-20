@@ -7,7 +7,8 @@ header {
 }
 
 #staticNav img {
-  width: 100%;
+  padding-left: 25%;
+  width: 50%;
   height: 5%
 }
 
@@ -21,9 +22,72 @@ header {
   padding-right: 4%;
 }
 
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 640px;
+    height: 540px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#home {
+  margin-bottom: 10%;
+}
 
 .homeContents p {
   padding: 1%;
   max-width: 30%;
   display: inline-block;
+}
+
+
+.classesDivs {
+  text-align: center;
+  display: inline-block;
+  max-width: 33%;
+  margin-bottom: 10%
+}
+
+.classesDivs img{
+  max-width: 100%;
+}
+
+.classesDivs p {
+  text-align: center;
+  height: 200px;
+  overflow: scroll;
+  width: 70%;
+  margin: auto;
+
+}
+
+.classesPage section{
+  margin-top: 10%;
+  display: inline-block;
+}
+
+.classesPage h3{
+  text-align: center;
+  max-width: 100%;
+}
+
+.classPage p {
+  text-align: center;
+}
+
+.galleryPage {
+  margin-top: 10%;
+}
+
+.buyNow {
+  margin-top: 10%;
 }
