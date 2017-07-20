@@ -11,10 +11,15 @@ header {
   text-align: center;
 }
 
-#staticNav img {
+#banner {
   padding-left: 25%;
   width: 50%;
   height: 5%
+}
+
+#facebookLogo{
+  max-height: 3%;
+  max-width: 3%;
 }
 
 #staticNav ul {
@@ -52,6 +57,7 @@ header {
   padding: 1%;
   max-width: 30%;
   display: inline-block;
+  font-size: 24px;
 }
 
 /************************** Classes **************************/
@@ -124,7 +130,7 @@ header {
 /********************* Parralax *********************/
 .parallax {
     /* The image used */
-    background-image: url("../IMG/parallax1.jpg");
+    background-image: url("../IMG/parallax1.5.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -138,7 +144,7 @@ header {
 
 
 #parallaxOne {
-  background-image: url("../IMG/parallax1.jpg");
+  background-image: url("../IMG/parallax1.5.jpg");
   /* Set a specific height */
   height: 500px;
 
@@ -149,7 +155,7 @@ header {
   background-size: cover;
 }
 #parallaxTwo {
-  background-image: url("../IMG/parallax2.jpg");
+  background-image: url("../IMG/parallax2.5.jpg");
   /* Set a specific height */
   height: 500px;
 
@@ -161,7 +167,7 @@ header {
 
 }
 #parallaxThree {
-  background-image: url("../IMG/parallax3.jpg");
+  background-image: url("../IMG/parallax3.5.jpg");
   /* Set a specific height */
   height: 500px;
 
@@ -172,7 +178,7 @@ header {
   background-size: cover;
 }
 #parallaxFour {
-  background-image: url("../IMG/parallax4.jpg");
+  background-image: url("../IMG/parallax4.5.jpg");
   /* Set a specific height */
   height: 500px;
 
