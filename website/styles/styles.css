@@ -113,11 +113,69 @@ header {
 }
 
 /********************* Parralax *********************/
-
-
 .parallax {
     /* The image used */
     background-image: url("../IMG/socks2.jpeg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#parallaxOne {
+  background-image: url("../IMG/gallery2.jpeg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallaxTwo {
+  background-image: url("../IMG/socks4.jpeg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#parallaxThree {
+  background-image: url("../IMG/socks5.jpeg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallaxFour {
+  background-image: url("../IMG/gallery8.jpeg");
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax {
+    /* The image used */
+    /*background-image: url("../IMG/socks2.jpeg");*/
 
     /* Set a specific height */
     height: 500px;
