@@ -48,6 +48,13 @@ header {
     right: 10px;
     bottom: 10px;
 }
+
+.pageTitle {
+  text-align: center;
+  font-size: 64px;
+  text-shadow: 2px 2px 4px black;
+  margin: 10%;
+}
 /************************** Home **************************/
 #home {
   margin-bottom: 10%;
