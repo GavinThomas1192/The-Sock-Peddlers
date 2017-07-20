@@ -32,6 +32,11 @@ header {
   padding-right: 4%;
 }
 
+#staticNav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 #slideshow {
     margin: 50px auto;
     position: relative;

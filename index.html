@@ -25,13 +25,13 @@
   <!-- ************************* Nav Bar ************************* -->
   <section id='staticNav' <div class="upperLogo">
     <img id='banner' src="./IMG/TheSockPeddlersFinal2.png" alt="">
-    <nav>
+    <nav class="main-nav">
       <ul>
-        <li>Home</li>
-        <li>Classes</li>
-        <li>Gallery</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li class="tab" data-content="home"><a href="#">Home</a></li>
+        <li class="tab" data-content="classes"><a href="#">Classes</a></li>
+        <li class="tab" data-content="gallery"><a href="#">Gallery</a></li>
+        <li class="tab" data-content="about"><a href="#">About</a></li>
+        <li class="tab" data-content="contact"><a href="#">Contact</a></li>
         <a href="https://www.facebook.com/thesockpeddlers/"><img id='facebookLogo' src="IMG/facebookLogo.png" alt=""></a>
       </ul>
     </nav>
@@ -52,7 +52,7 @@
       </div>
     </section>
     <!-- ************************* HomeContents ************************* -->
-    <section id='home'>
+    <section id='home' class="tab-content">
       <div class="homeContents">
         <p>Imagine making socks for yourself or someone very special in your life--even if you've never knitted before!</p>
         <p>How can making socks be a reality? All you have to do is plan a special day of knitting FUN with The Sock Peddlers. Visit them at their new location at Clover Park Shops in Lakewood.</p>
@@ -63,7 +63,7 @@
   <div class="parallax" id="ParallaxOne"></div>
   <!-- ************************* Classes ************************* -->
   <section class="bodyTest">
-    <section class='classesPage'>
+    <section id="classes" class="tab-content" class='classesPage'>
       <div class='pageTitle'>Day Classes</div>
       <div class="classesDivs">
         <h3>Shake, Shake, Shake, Shake your Booty SOCKS</h3>
@@ -85,7 +85,7 @@
         <p>SHORT SOCKS! Make a pair of socks from beginning to end. These socks will be about ankle high with the cuff folded down and secured on the inside. </p>
       </div>
     </section>
-    <section class='classesPage'>
+    <section id="classes" class="tab-content" class='classesPage'>
       <div class="classesDivs">
         <h3>Wooly Bully Warmers</h3>
         <img src="./IMG/socks4.jpeg" alt="">
@@ -109,7 +109,7 @@
   <div class="parallax" id="parallaxTwo"></div>
   <!-- ************************* Gallery ************************* -->
   <section class="bodyTest">
-    <section class='galleryPage'>
+    <section id="gallery" class="tab-content" class='galleryPage'>
       <div class='pageTitle'>Gallery</div>
       <div id='galleryHero'>
         <img src="./IMG/galleryHero.jpeg" alt="">
@@ -139,7 +139,7 @@
   <div class="parallax" id="parallaxThree"></div>
   <!-- ************************* About ************************* -->
   <section class="bodyTest">
-    <section class='aboutPage'>
+    <section id="about" class="tab-content" class='aboutPage'>
       <div class='pageTitle'>About</div>
       <div class="about">
         <img src="./IMG/about1.jpeg" alt="">
@@ -163,7 +163,7 @@
   </section>
   <div class="parallax" id="parallaxFour"></div>
   <!-- ************************* Contact ************************* -->
-  <section class="contact">
+  <section id="contact" class="tab-content" class="contact">
     <div class='pageTitle'>Contact</div>
     <img src="" alt="">
     <h1>The Sock Peddlers</h1>
