@@ -217,3 +217,52 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }*/
+
+@media only screen and (min-device-width: 320px)and (max-device-width: 960px)
+  {
+
+    #slideshow {
+        margin: 50px auto;
+        position: relative;
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    #slideshow > div {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    #slideshow img {
+      max-width: 100%;
+      max-height: 100%;
+      width: 250px;
+      height: 150px;
+    }
+
+    .homeContents p {
+    padding: 1%;
+    max-width: 100%;
+    font-size: 32px;
+}
+
+.classesDivs {
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+
+.about {
+    text-align: center;
+    max-width: 100%;
+    display: inline-block;
+    margin: 3%;
+}
+
+}
