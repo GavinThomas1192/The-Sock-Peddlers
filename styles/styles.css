@@ -1,7 +1,9 @@
 body {
+  background-image: url("../IMG/polkaBackground.jpg");
   background-color: rgb(217, 217, 217);
   height: 100%;
 }
+
 
 .bodyTest{
   margin-left: 10%;
@@ -141,6 +143,12 @@ header {
 .galleryThreeImages img {
   margin-right: 3%;
 }
+
+#gallery div img{
+  width: 400px;
+  height: 400px;
+}
+
 /************************** About **************************/
 .aboutPage {
   text-align: center;
@@ -163,14 +171,13 @@ header {
 }
 
 /********************* Parralax *********************/
-.parallax {
-    /* The image used */
-    background-image: url("../IMG/parallax3.5.jpg");
+/*.parallax {
 
-    /* Set a specific height */
-    height: 700px;
+    background-image: url("../IMG/parallax3.5.png");
 
-    /* Create the parallax scrolling effect */
+    height: 500px;
+
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,21 +185,11 @@ header {
 }
 
 
-#parallaxOne {
-  /*background-image: url("../IMG/parallax1.5.jpg");
-  height: 500px;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-}
 #parallaxTwo {
-  background-image: url("../IMG/parallax1.5.jpg");
-  /* Set a specific height */
-  height: 700px;
+  background-image: url("../IMG/parallax1.5.png");
 
-  /* Create the parallax scrolling effect */
+  height: 500px;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,37 +197,22 @@ header {
 
 }
 #parallaxThree {
-  background-image: url("../IMG/parallax2.5.jpg");
-  /* Set a specific height */
+  background-image: url("../IMG/parallax2.5.png");
+
   height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #parallaxFour {
-  background-image: url("../IMG/parallax4.5.jpg");
-  /* Set a specific height */
+  background-image: url("../IMG/parallax4.5.png");
+
   height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.parallax {
-    /* The image used */
-    /*background-image: url("../IMG/socks2.jpeg");*/
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+}*/

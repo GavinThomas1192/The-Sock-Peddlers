@@ -38,25 +38,25 @@
     </nav>
   </section>
   <!-- ************************* Hero ************************* -->
-  <section class="bodyTest">
-    <section>
-      <div id="slideshow">
-        <div>
-          <img src="./IMG/rawIMG/slideshow4.jpeg">
+  <!-- ************************* HomeContents ************************* -->
+  <section id='home' class="tab-content">
+    <section class="bodyTest">
+      <section>
+        <div id="slideshow">
+          <div>
+            <img src="./IMG/rawIMG/slideshow4.jpeg">
+          </div>
+          <div>
+            <img src="./IMG/rawIMG/slideshow1.jpg">
+          </div>
+          <div>
+            <img src="./IMG/rawIMG/slideshow3.jpeg" alt="">
+          </div>
+          <div>
+            <img src="./IMG/rawIMG/slideshow2.jpg" alt="">
+          </div>
         </div>
-        <div>
-          <img src="./IMG/rawIMG/slideshow1.jpg">
-        </div>
-        <div>
-          <img src="./IMG/rawIMG/slideshow3.jpeg" alt="">
-        </div>
-        <div>
-          <img src="./IMG/rawIMG/slideshow2.jpg" alt="">
-        </div>
-      </div>
-    </section>
-    <!-- ************************* HomeContents ************************* -->
-    <section id='home' class="tab-content">
+      </section>
       <div class="homeContents">
         <p>It's as easy as sunday morning. Just visit Roger and Kathy at their workshop in lakewood to begin your knitting adventure.</p>
         <p><em>Imagine making socks for yourself or someone very special in your life--even if you've never knitted before!</em></p>
@@ -88,8 +88,7 @@
         <img src="./IMG/socks3.jpeg" alt="">
         <p>SHORT SOCKS! Make a pair of socks from beginning to end. These socks will be about ankle high with the cuff folded down and secured on the inside. </p>
       </div>
-    </section>
-    <section id="classes" class="tab-content" class='classesPage'>
+      <!-- <section id="classes" class="tab-content" class='classesPage'> -->
       <div class="classesDivs">
         <h3>Wooly Bully Warmers</h3>
         <img src="./IMG/socks4.jpeg" alt="">
@@ -108,27 +107,27 @@
         <p>Whirl and twirl a little or a lot - if you are short or tall, it matters NOT! Scarves are great "first" projects with kids and adults. Who doesn't like to go round-n-round? Additional time can be added for pom-poms and tassels-all without hassles.
           Very Kid Friendly 1 hour minimum</p>
       </div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HR39PQKYJ2ABS">
+        <table>
+          <tr>
+            <td><input type="hidden" name="on0" value="Choose Your Knitting Class Now">Choose Your Knitting Class Now</td>
+          </tr>
+          <tr>
+            <td><select name="os0">
+              <option value="Sock Class">Sock Class $75.00 USD</option>
+              <option value="Scarf Class">Scarf Class $50.00 USD</option>
+              <option value="Handwarmer Class">Handwarmer Class $75.00 USD</option>
+              <option value="Class Gift Certificate">Class Gift Certificate $75.00 USD</option>
+            </select> </td>
+          </tr>
+        </table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </section>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="HR39PQKYJ2ABS">
-      <table>
-        <tr>
-          <td><input type="hidden" name="on0" value="Choose Your Knitting Class Now">Choose Your Knitting Class Now</td>
-        </tr>
-        <tr>
-          <td><select name="os0">
-	<option value="Sock Class">Sock Class $75.00 USD</option>
-	<option value="Scarf Class">Scarf Class $50.00 USD</option>
-	<option value="Handwarmer Class">Handwarmer Class $75.00 USD</option>
-	<option value="Class Gift Certificate">Class Gift Certificate $75.00 USD</option>
-</select> </td>
-        </tr>
-      </table>
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
 
   </section>
   <div class="parallax" id="parallaxTwo"></div>
@@ -136,11 +135,11 @@
   <section class="divCenter" class="bodyTest">
     <section id="gallery" class="tab-content" class='galleryPage'>
       <div class='pageTitle'>Gallery</div>
-      <div id='galleryHero'>
+      <!-- <div id='galleryHero'>
         <img src="./IMG/galleryHero.jpeg" alt="">
-      </div>
+      </div> -->
       <div class="galleryThreeImages">
-        <img src="./IMG/gallery1.jpeg" alt="">
+        <img src="./IMG/rawIMG/slideshow1.jpg" alt="">
         <img src="./IMG/gallery2.jpeg" alt="">
         <img src="./IMG/gallery3.jpg" alt="">
       </div>
@@ -156,8 +155,8 @@
       </div>
       <div class="galleryThreeImages">
         <img src="./IMG/gallery10.png" alt="">
-        <img src="./IMG/gallery1.jpeg" alt="">
-        <img src="./IMG/gallery1.jpeg" alt="">
+        <img src="./IMG/rawIMG/gallery11.JPG" alt="">
+        <img src="./IMG/rawIMG/gallery12.JPG" alt="">
       </div>
     </section>
   </section>
