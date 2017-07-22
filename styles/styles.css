@@ -1,5 +1,6 @@
 body {
   background-color: rgb(217, 217, 217);
+  height: 100%;
 }
 
 .bodyTest{
@@ -22,6 +23,12 @@ header {
   max-width: 3%;
 }
 
+#paypalLogo {
+  max-height: 3%;
+  max-width: 3%;
+  margin-right: 5%;
+}
+
 #staticNav ul {
   text-align: center;
 }
@@ -40,7 +47,7 @@ header {
 #slideshow {
     margin: 50px auto;
     position: relative;
-    width: 640px;
+    width: 720px;
     height: 540px;
     padding: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
@@ -52,6 +59,13 @@ header {
     left: 10px;
     right: 10px;
     bottom: 10px;
+}
+
+#slideshow img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 720px;
+  height: 540px;
 }
 
 .pageTitle {
@@ -69,7 +83,11 @@ header {
   padding: 1%;
   max-width: 30%;
   display: inline-block;
-  font-size: 24px;
+  font-size: 32px;
+}
+
+.homeContents p:nth-child(2) {
+  font-size: 40px;
 }
 
 /************************** Classes **************************/
@@ -112,6 +130,10 @@ header {
   text-align: center;
 }
 
+.divCenter {
+  text-align: center;
+}
+
 .galleryThreeImages {
   margin: 3%;
 }
@@ -133,6 +155,7 @@ header {
 .aboutText {
   max-width: 75%;
   margin: auto;
+  font-size: 24px;
 }
 /************************** Contact **************************/
 .contact {
@@ -142,10 +165,10 @@ header {
 /********************* Parralax *********************/
 .parallax {
     /* The image used */
-    background-image: url("../IMG/parallax1.5.jpg");
+    background-image: url("../IMG/parallax3.5.jpg");
 
     /* Set a specific height */
-    height: 500px;
+    height: 700px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -156,20 +179,18 @@ header {
 
 
 #parallaxOne {
-  background-image: url("../IMG/parallax1.5.jpg");
-  /* Set a specific height */
+  /*background-image: url("../IMG/parallax1.5.jpg");
   height: 500px;
-
-  /* Create the parallax scrolling effect */
+  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 #parallaxTwo {
-  background-image: url("../IMG/parallax2.5.jpg");
+  background-image: url("../IMG/parallax1.5.jpg");
   /* Set a specific height */
-  height: 500px;
+  height: 700px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -179,7 +200,7 @@ header {
 
 }
 #parallaxThree {
-  background-image: url("../IMG/parallax3.5.jpg");
+  background-image: url("../IMG/parallax2.5.jpg");
   /* Set a specific height */
   height: 500px;
 

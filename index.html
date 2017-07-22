@@ -27,6 +27,7 @@
     <img id='banner' src="./IMG/TheSockPeddlersFinal2.png" alt="">
     <nav class="main-nav">
       <ul>
+        <a href="https://www.facebook.com/thesockpeddlers/"><img id='paypalLogo' src="IMG/paypalLogo.png" alt=""></a>
         <li class="tab" data-content="home"><a href="#">Home</a></li>
         <li class="tab" data-content="classes"><a href="#">Classes</a></li>
         <li class="tab" data-content="gallery"><a href="#">Gallery</a></li>
@@ -41,22 +42,25 @@
     <section>
       <div id="slideshow">
         <div>
-          <img src="./IMG/TheSockPeddlersFinal2.png">
+          <img src="./IMG/rawIMG/slideshow4.jpeg">
         </div>
         <div>
-          <img src="./IMG/gallery9.png">
+          <img src="./IMG/rawIMG/slideshow1.jpg">
         </div>
         <div>
-          Pretty cool eh? This slide is proof the content can be anything.
+          <img src="./IMG/rawIMG/slideshow3.jpeg" alt="">
+        </div>
+        <div>
+          <img src="./IMG/rawIMG/slideshow2.jpg" alt="">
         </div>
       </div>
     </section>
     <!-- ************************* HomeContents ************************* -->
     <section id='home' class="tab-content">
       <div class="homeContents">
-        <p>Imagine making socks for yourself or someone very special in your life--even if you've never knitted before!</p>
-        <p>How can making socks be a reality? All you have to do is plan a special day of knitting FUN with The Sock Peddlers. Visit them at their new location at Clover Park Shops in Lakewood.</p>
-        <p>Call (360) 280-9670 or (360) 480-1804 to schedule a time to make socks! 11120 Gravelly Lake DR SW, STE 6A, Lakewood, WA 98402</p>
+        <p>It's as easy as sunday morning. Just visit Roger and Kathy at their workshop in lakewood to begin your knitting adventure.</p>
+        <p><em>Imagine making socks for yourself or someone very special in your life--even if you've never knitted before!</em></p>
+        <p>Anyone can do it, what are you waiting for? To schedule a class simply call (360) 280-9670 or (360) 480-1804.</p>
       </div>
     </section>
   </section>
@@ -105,10 +109,31 @@
           Very Kid Friendly 1 hour minimum</p>
       </div>
     </section>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="HR39PQKYJ2ABS">
+      <table>
+        <tr>
+          <td><input type="hidden" name="on0" value="Choose Your Knitting Class Now">Choose Your Knitting Class Now</td>
+        </tr>
+        <tr>
+          <td><select name="os0">
+	<option value="Sock Class">Sock Class $75.00 USD</option>
+	<option value="Scarf Class">Scarf Class $50.00 USD</option>
+	<option value="Handwarmer Class">Handwarmer Class $75.00 USD</option>
+	<option value="Class Gift Certificate">Class Gift Certificate $75.00 USD</option>
+</select> </td>
+        </tr>
+      </table>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
   </section>
   <div class="parallax" id="parallaxTwo"></div>
   <!-- ************************* Gallery ************************* -->
-  <section class="bodyTest">
+  <section class="divCenter" class="bodyTest">
     <section id="gallery" class="tab-content" class='galleryPage'>
       <div class='pageTitle'>Gallery</div>
       <div id='galleryHero'>
@@ -138,7 +163,7 @@
   </section>
   <div class="parallax" id="parallaxThree"></div>
   <!-- ************************* About ************************* -->
-  <section class="bodyTest">
+  <section class="divCenter" class="bodyTest">
     <section id="about" class="tab-content" class='aboutPage'>
       <div class='pageTitle'>About</div>
       <div class="about">
@@ -163,7 +188,7 @@
   </section>
   <div class="parallax" id="parallaxFour"></div>
   <!-- ************************* Contact ************************* -->
-  <section id="contact" class="tab-content" class="contact">
+  <section class="divCenter" id="contact" class="tab-content" class="contact">
     <div class='pageTitle'>Contact</div>
     <img src="" alt="">
     <h1>The Sock Peddlers</h1>

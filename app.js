@@ -11,12 +11,12 @@ $(document).ready(function() {
       .appendTo('#slideshow');
   }, 3000);
 
-  $('.main-nav .tab').on('click', function() {
-    $('.tab-content').hide();
-    $('#' + $(this).data('content')).fadeIn('slow');
-    console.log('click');
-
-  });
-  $('.main-nav .tab:first').click();
+  // $('.main-nav .tab').on('click', function() {
+  //   $('.tab-content').hide();
+  //   $('#' + $(this).data('content')).fadeIn('slow');
+  //   console.log('click');
+  //
+  // });
+  // $('.main-nav .tab:first').click();
 
 });
